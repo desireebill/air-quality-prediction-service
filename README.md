@@ -27,4 +27,6 @@ First, let's create the virtual environment:
 
 [Conda Virtual Environment Guide - Medium](https://medium.com/@viraj1604/comprehensive-guide-conda-virtual-environment-d70fafa7cf48)
 
-[Viña del Mar - Air Quality API](https://open-meteo.com/en/docs/air-quality-api#latitude=-33.0246&longitude=-71.5518)
+[Viña del Mar - Air Quality Aqicn](https://aqicn.org/city/chile/vina-del-mar/)
+
+[Viña del Mar - Air Quality OpenMeteo](https://open-meteo.com/en/docs/air-quality-api#latitude=-33.0246&longitude=-71.5518)

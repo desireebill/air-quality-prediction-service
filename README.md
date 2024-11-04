@@ -2,6 +2,15 @@
 
 ![](imgs/pipeline.png)
 
+## Initialization
+
+First, let's create the virtual environment:
+
+```bash
+>> conda env create -n AirQuality -f environment.yml
+>> conda activate AirQuality
+```
+
 ## Tasks
 - [x] Create a free account on hopsworks.ai
 - [x] Create a free account on github.com

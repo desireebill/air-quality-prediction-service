@@ -9,3 +9,7 @@
 - [ ] Run a training pipeline
 - [ ] Build and run a batch inference pipeline on Github Actions
 - [ ] Visualize your air quality predictions with a dashboard
+
+## References
+
+[Conda Virtual Environment Guide - Medium](https://medium.com/@viraj1604/comprehensive-guide-conda-virtual-environment-d70fafa7cf48)

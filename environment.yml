@@ -1,0 +1,4 @@
+name: AirQuality
+channels:
+  - defaults
+prefix: /Users/martinbravodiaz/miniconda3/envs/AirQuality

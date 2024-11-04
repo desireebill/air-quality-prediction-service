@@ -23,4 +23,8 @@ First, let's create the virtual environment:
 
 [Assignment Instructions](./Instructions.pdf)
 
+[Building Machine Learning Systems with a Feature Store, Chapter 03](https://learning.oreilly.com/library/view/building-machine-learning/9781098165222/)
+
 [Conda Virtual Environment Guide - Medium](https://medium.com/@viraj1604/comprehensive-guide-conda-virtual-environment-d70fafa7cf48)
+
+[Viña del Mar - Air Quality API](https://open-meteo.com/en/docs/air-quality-api#latitude=-33.0246&longitude=-71.5518)

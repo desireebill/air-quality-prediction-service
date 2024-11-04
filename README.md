@@ -25,7 +25,7 @@ First, let's create the virtual environment:
 
 [Introduction Lecture](./docs/01-introduction.pdf)
 
-[Serverless Machine Learning](./docs/02-serverless-ml.pdf)
+[Serverless Machine Learning Lecture](./docs/02-serverless-ml.pdf)
 
 [Building Machine Learning Systems with a Feature Store, Chapter 03](https://learning.oreilly.com/library/view/building-machine-learning/9781098165222/)
 

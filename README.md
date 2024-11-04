@@ -21,4 +21,6 @@ First, let's create the virtual environment:
 
 ## References
 
+[Assignment Instructions](./Instructions.pdf)
+
 [Conda Virtual Environment Guide - Medium](https://medium.com/@viraj1604/comprehensive-guide-conda-virtual-environment-d70fafa7cf48)

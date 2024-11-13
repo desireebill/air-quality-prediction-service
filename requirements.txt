@@ -3,3 +3,5 @@ geopy
 openmeteo_requests 
 requests_cache 
 retry_requests
+matplotlib
+python-dotenv

@@ -5,3 +5,5 @@ requests_cache
 retry_requests
 matplotlib
 python-dotenv
+scikit-learn
+xgboost

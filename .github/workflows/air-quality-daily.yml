@@ -22,3 +22,4 @@ jobs:
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
         run: |
             jupyter nbconvert --to notebook --execute 2-daily-feature-pipeline.ipynb
+            jupyter nbconvert --to notebook --execute 4-batch-inference-pipeline.ipynb

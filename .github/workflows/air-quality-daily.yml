@@ -1,0 +1,24 @@
+name: Air Quality Daily
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '0 1 * * *'
+jobs:
+  test_schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v4
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10.15'
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: execute pipelines
+        env:
+          HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
+        run: |
+            jupyter nbconvert --to notebook --execute 2-daily-feature-pipeline.ipynb

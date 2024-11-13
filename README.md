@@ -37,4 +37,4 @@ First, let's create the virtual environment:
 
 [Viña del Mar - Air Quality Aqicn](https://aqicn.org/city/chile/vina-del-mar/)
 
-[Viña del Mar - Air Quality OpenMeteo](https://open-meteo.com/en/docs/air-quality-api#latitude=-33.0246&longitude=-71.5518)
+[Viña del M

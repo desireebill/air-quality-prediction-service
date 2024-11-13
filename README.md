@@ -2,6 +2,10 @@
 
 ![](imgs/pipeline.png)
 
+## Link
+
+All the visualizations can be found at https://martinebravo.github.io/air-quality-prediction-service/
+
 ## Initialization
 
 First, let's create the virtual environment:
@@ -14,10 +18,10 @@ First, let's create the virtual environment:
 ## Tasks
 - [x] Create a free account on hopsworks.ai
 - [x] Create a free account on github.com
-- [ ] Build and run a feature pipeline on Github Actions
-- [ ] Run a training pipeline
-- [ ] Build and run a batch inference pipeline on Github Actions
-- [ ] Visualize your air quality predictions with a dashboard
+- [x] Build and run a feature pipeline on Github Actions
+- [x] Run a training pipeline
+- [x] Build and run a batch inference pipeline on Github Actions
+- [x] Visualize your air quality predictions with a dashboard
 
 ## References
 

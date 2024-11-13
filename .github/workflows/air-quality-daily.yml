@@ -23,3 +23,16 @@ jobs:
         run: |
             jupyter nbconvert --to notebook --execute 2-daily-feature-pipeline.ipynb
             jupyter nbconvert --to notebook --execute 4-batch-inference-pipeline.ipynb
+
+      - name : github pages publish
+        uses : stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Air Quality Dashboard published"
+          commit_options: '--no-verify --signoff'
+          file_pattern: 'docs/air-quality/assets/img/* docs/_includes/*'
+          repository: .
+          status_options: '--untracked-files=no'
+          skip_dirty_check: true
+          skip_fetch: true
+          skip_checkout: true
+          push_options: '--force'

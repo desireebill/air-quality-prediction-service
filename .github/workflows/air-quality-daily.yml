@@ -23,7 +23,7 @@ jobs:
         run: |
             jupyter nbconvert --to notebook --execute 2-daily-feature-pipeline.ipynb
             jupyter nbconvert --to notebook --execute 4-batch-inference-pipeline.ipynb
-
+        #dashboard - batch inference saves png file, we say we use github pages in github actions, it will commit and push any changes to the docs/air /quality.. directory, that is where the png file is written to and then does a force push
       - name : github pages publish
         uses : stefanzweifel/git-auto-commit-action@v5
         with:
@@ -36,3 +36,7 @@ jobs:
           skip_fetch: true
           skip_checkout: true
           push_options: '--force'
+
+#github actions starts a container, a small program, a mini operating system
+
+#kolla permissions!!
